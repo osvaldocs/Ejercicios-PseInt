@@ -1,22 +1,17 @@
 Algoritmo sin_titulo
-	//1) Determinar si un número es positivo, negativo o cero
 	
+	//Invertir el contenido en un array
 	definir numero Como Entero
+	Dimensionar numeros[5]
 	
-	escribir "ingrese un numero"
-	leer numero
+	Para i <- 1 hasta 5 Con Paso 1 Hacer
+		escribir "Ingrese el numero " i ":"
+		leer numero
+		numeros[i] <- numero
+	FinPara
 	
-	Si numero > 0 Entonces
-		Escribir "El número es positivo"
-		
-	FinSi
-	
-	si numero < 0 Entonces
-		Escribir "El número es negativo"
-	FinSi
-	
-	si numero = 0 Entonces
-		Escribir "El numero es cero"
-	FinSi
+	para i <- 5 hasta 1  hacer
+		escribir numeros[i]
+	FinPara
 	
 FinAlgoritmo
