@@ -13,7 +13,10 @@ Algoritmo sin_titulo
 		escribir numeros[i]
 		i <- i + 1
 	FinMientras
+
+	Para i <- 1 hasta 10 Hacer
+		escribir numeros[i]
 	
-	
+	FinPara
 	
 FinAlgoritmo
